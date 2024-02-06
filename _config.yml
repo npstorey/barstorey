@@ -1,0 +1,12 @@
+remote_theme: "regmtait/Toasty-Jekyll"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+
+# Site title and description
+title: Bar Storey
+description: "A concepetual art project exploring terroir and memory through spirits and cocktails."
+
+# Optional: Define navigation links
+# This will be configured more in detail below
