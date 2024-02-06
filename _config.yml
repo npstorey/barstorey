@@ -7,13 +7,3 @@ plugins:
 # Site title and description
 title: Bar Storey
 description: "A concepetual art project exploring terroir and memory through spirits and cocktails."
-
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Survey"
-    url: "/survey/"
-  - title: "Contact"
-    url: "/contact/"
