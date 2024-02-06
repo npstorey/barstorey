@@ -65,3 +65,16 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover, .button:hover, button[type="submit"]:hover, input[type="submit"]:hover {
   background-color: darken($color-copper-red, 10%);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Slab', serif;
+}
+
+.btn {
+  background-color: var(--color-copper-red);
+  color: var(--color-sandstone);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-copper-red);
+}
