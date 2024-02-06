@@ -15,3 +15,53 @@
   max-width: 600px; // Adjust based on your preference
   height: auto;
 }
+
+/* Color Scheme */
+$color-copper-red: #CB6D51;
+$color-slate-blue: #5B7B8A;
+$color-sandstone: #EDE5D9;
+$color-rustic-gold: #B29A76;
+$color-graphite: #474040;
+$color-sunset-glow: #E4B4A2;
+
+/* Apply color scheme */
+body {
+  background-color: $color-sandstone;
+  color: $color-graphite;
+}
+
+a, .navbar-nav .nav-link {
+  color: $color-slate-blue;
+}
+
+a:hover, .navbar-nav .nav-link:hover {
+  color: $color-sunset-glow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-graphite;
+}
+
+/* Navigation Bar and Footer styles */
+.footer, .navbar {
+  background-color: $color-sandstone;
+  color: $color-graphite;
+}
+
+.navbar-nav .nav-link {
+  color: $color-graphite;
+}
+
+.navbar-nav .nav-link:hover, .footer a:hover {
+  color: $color-copper-red;
+}
+
+/* Buttons and Calls to Action */
+.btn, .button, button[type="submit"], input[type="submit"] {
+  background-color: $color-copper-red;
+  color: $color-sandstone;
+}
+
+.btn:hover, .button:hover, button[type="submit"]:hover, input[type="submit"]:hover {
+  background-color: darken($color-copper-red, 10%);
+}
