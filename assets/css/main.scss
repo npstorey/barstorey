@@ -7,3 +7,11 @@
 .page__title {
   display: none;
 }
+
+/* Custom styles for the homepage logo */
+.home-logo img {
+  display: block;
+  margin: 0 auto; // Center the logo
+  max-width: 600px; // Adjust based on your preference
+  height: auto;
+}
