@@ -17,6 +17,6 @@ I became a home bartender many years ago to balance the equation of my love for 
 
 Every tasting is uniquely tailored to the spirit preferences and familiarity of each guest. Collectively, we share a tasting of a dozen or so unique spirits, a few mini cocktails, some snacks, and conversation.
 
-[Take the survey to request a tasting.](#)
+[Take the survey to request a tasting.](/barstorey/survey/)
 
 Note: this is a non-commercial art project. No tickets will be sold. Tastings are by invitation only. Barter, donations to the Slow Food movement, or sliding scale contributions to cover costs are accepted.
