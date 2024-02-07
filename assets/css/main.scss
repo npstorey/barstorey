@@ -72,11 +72,11 @@ a:hover {
 /* Buttons and Calls to Action */
 .btn, .button, button[type="submit"], input[type="submit"] {
   background-color: $color-copper-red;
-  color: $color-sandstone; /* Text color for buttons */
+  color: $color-sandstone;
   border: none;
-  transition: background-color 0.3s ease; /* Smooth transition for hover state */
+  transition: background-color 0.3s ease;
 }
 
-.btn:hover, .button:hover, button[type="submit"]:hover, input[type["submit"]:hover {
-  background-color: darken($color-copper-red, 10%); /* Darker shade for button hover state */
+.btn:hover, .button:hover, button[type="submit"]:hover, input[type="submit"]:hover {
+  background-color: darken($color-copper-red, 10%);
 }
