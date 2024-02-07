@@ -81,7 +81,7 @@ a:hover {
   background-color: darken($color-copper-red, 10%);
 }
 
-/* Hide the page title on all pages */
+/* Hide the page title on all pages with increased specificity */
 .page__title {
-  display: none;
+  display: none !important;
 }
