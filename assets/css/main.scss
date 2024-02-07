@@ -80,3 +80,8 @@ a:hover {
 .btn:hover, .button:hover, button[type="submit"]:hover, input[type="submit"]:hover {
   background-color: darken($color-copper-red, 10%);
 }
+
+/* Hide the page title on all pages */
+.page__title {
+  display: none;
+}
