@@ -4,14 +4,6 @@
 
 @import "minimal-mistakes";
 
-/* Custom styles for the homepage logo */
-.home-logo img {
-  display: block;
-  margin: 0 auto; /* Center the logo */
-  max-width: 450px; /* 75% of the original 600px width for consistency */
-  height: auto;
-}
-
 /* Color Scheme Definitions */
 $color-copper-red: #CB6D51;
 $color-slate-blue: #5B7B8A;
@@ -20,51 +12,71 @@ $color-rustic-gold: #B29A76;
 $color-graphite: #474040;
 $color-sunset-glow: #E4B4A2;
 
+/* Custom styles for the homepage logo */
+.home-logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 450px; /* Adjusted to 75% of the original size */
+  height: auto;
+}
+
 /* Global Styles */
 body {
   background-color: $color-sandstone;
   color: $color-graphite;
-  font-family: 'Source Sans Pro', sans-serif; /* Secondary Font for Body */
+  font-family: 'Source Sans Pro', sans-serif; /* Applies to body text */
 }
 
-/* Typography */
+/* Typography - Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Slab', serif; /* Primary Font for Headings */
+  font-family: 'Josefin Slab', serif; /* Applies to headings */
   color: $color-graphite;
 }
 
-/* Navigation Bar and Footer Styles */
+/* Site Title Font */
+.site-title {
+  font-family: 'Josefin Slab', serif;
+}
+
+/* Greedy Nav Background */
+.greedy-nav {
+  background-color: $color-sandstone;
+}
+
+/* Navigation Menu Item Font & Color */
+.masthead__menu-item a {
+  font-family: 'Josefin Slab', serif;
+  color: $color-graphite; /* Default state */
+}
+
+.masthead__menu-item a:hover {
+  color: $color-copper-red; /* Hover state */
+}
+
+/* Footer and Navbar Styles */
 .footer, .navbar {
   background-color: $color-sandstone;
   color: $color-graphite;
 }
 
-.navbar-nav .nav-link, .footer a {
-  color: $color-graphite;
-}
-
-.navbar-nav .nav-link:hover, .footer a:hover {
-  color: $color-copper-red;
-}
-
-/* Links */
+/* Links Color */
 a {
-  color: $color-slate-blue;
-  transition: color 0.3s ease;
+  color: $color-slate-blue; /* Default link color */
+  transition: color 0.3s ease; /* Smooth transition for hover state */
 }
 
 a:hover {
-  color: $color-sunset-glow;
+  color: $color-sunset-glow; /* Hover state color for links */
 }
 
 /* Buttons and Calls to Action */
 .btn, .button, button[type="submit"], input[type="submit"] {
   background-color: $color-copper-red;
-  color: $color-sandstone;
+  color: $color-sandstone; /* Text color for buttons */
   border: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth transition for hover state */
 }
 
-.btn:hover, .button:hover, button[type="submit"]:hover, input[type="submit"]:hover {
-  background-color: darken($color-copper-red, 10%);
+.btn:hover, .button:hover, button[type="submit"]:hover, input[type["submit"]:hover {
+  background-color: darken($color-copper-red, 10%); /* Darker shade for button hover state */
 }
