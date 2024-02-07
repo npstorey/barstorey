@@ -1,17 +1,16 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# Site settings
+title: Bar Storey
+description: "A conceptual art project exploring terroir and memory through spirits and cocktails."
+baseurl: "/barstorey" # the subpath of your site, e.g., /blog
+url: "https://npstorey.github.io" # the base hostname & protocol for your site
 
-# Plugins
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
 
-# _config.yml
-
-# Custom head script for Google Fonts
+# Theme-specific configurations
 head:
   custom: [
     "<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Source+Sans+Pro:400,700&display=swap' rel='stylesheet'>"
   ]
-
-# Site title and description
-title: Bar Storey
-description: "A concepetual art project exploring terroir and memory through spirits and cocktails."
