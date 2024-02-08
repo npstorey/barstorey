@@ -6,5 +6,7 @@ main:
     url: "/about/"
   - title: "Survey"
     url: "/survey/"
+  - title: "Map"
+    url: "/map/"
   - title: "Contact"
     url: "/contact/"
