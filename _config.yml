@@ -1,8 +1,8 @@
 # Site settings
 title: Bar Storey
 description: "A conceptual art project exploring terroir and memory through spirits and cocktails."
-baseurl: "/barstorey" # the subpath of your site, e.g., /blog
-url: "https://npstorey.github.io" # the base hostname & protocol for your site
+baseurl: "" # No subpath needed, site is hosted at root of domain
+url: "https://barstorey.com" # Custom domain
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
