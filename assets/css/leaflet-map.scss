@@ -1,0 +1,37 @@
+/* leaflet-map.scss */
+
+// Map container
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; // Center the map container if needed
+    box-shadow: 0 0 8px rgba(0,0,0,0.25); // Optional: add a shadow for depth
+
+    @media (max-width: 768px) {
+        height: 300px; // Smaller height on mobile devices
+    }
+}
+
+// Custom Marker Icons
+.leaflet-marker-icon.custom-icon {
+    border-radius: 50%;
+    border: 2px solid #CB6D51; // Copper Red
+}
+
+// Custom Popups
+.leaflet-popup-content {
+    font-family: 'Source Sans Pro', sans-serif; // Consistent with body text
+    color: #474040; // Graphite
+    // Additional popup styling
+}
+
+// Map Controls Customization (e.g., zoom buttons)
+.leaflet-control-zoom {
+    background-color: #EDE5D9; // Sandstone
+    border: 1px solid #5B7B8A; // Slate Blue
+
+    a {
+        color: #5B7B8A; // Slate Blue
+    }
+}
