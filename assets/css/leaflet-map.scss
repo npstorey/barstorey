@@ -37,3 +37,13 @@
         color: #5B7B8A; // Slate Blue
     }
 }
+
+#mapid {
+    height: 800px; /* Default height for desktop */
+}
+
+@media (max-width: 768px) {
+    #mapid {
+        height: 400px; /* Smaller height for mobile devices */
+    }
+}
