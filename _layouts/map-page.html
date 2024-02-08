@@ -1,22 +1,22 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     {% include head.html %}
+    <!-- Other head elements -->
 </head>
+<body>
+    <!-- Page content -->
+</body>
+</html>
 
-<body class="layout--single">
-    {% include masthead.html %}
-
-    <main class="page__content" itemprop="mainContentOfPage">
-        {{ content }}
-    </main>
-
+<main class="page__content" itemprop="mainContentOfPage">
+    <!-- Map Container -->
     <div id="mapid" style="height: 400px;"></div>
+
+    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-Zj7lqBJ2v0qviC1l8fLyfI5MkznHsuENOqE5D5v7t8w5nZgT4fGt5HdOeAeAyxM6" crossorigin=""></script>
+
+    <!-- Leaflet Map Initialization -->
     <script>
         var mymap = L.map('mapid').setView([51.505, -0.09], 13);
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
@@ -24,8 +24,4 @@
             maxZoom: 18,
         }).addTo(mymap);
     </script>
-
-    {% include footer.html %}
-</body>
-
-</html>
+</main>
