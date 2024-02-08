@@ -5,7 +5,7 @@ permalink: /map/
 author_profile: true
 ---
 
-<div id="mapid" style="height: 400px;"></div>
+<div id="mapid"></div>
 <script>
 var mymap = L.map('mapid').setView([51.505, -0.09], 13); // Set the initial position and zoom level of the map
 
