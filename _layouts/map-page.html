@@ -1,0 +1,32 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha384-xodZBntM4nI5AaE6goRT9hB1yiKmOU+Ve9BmBjgrfYIjzE9OzGmC4MdVGHvpGQxP" crossorigin=""/>
+</head>
+
+<body class="layout--single">
+    {% include masthead.html %}
+
+    <main class="page__content" itemprop="mainContentOfPage">
+        {{ content }}
+    </main>
+
+    <div id="mapid" style="height: 400px;"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-Zj7lqBJ2v0qviC1l8fLyfI5MkznHsuENOqE5D5v7t8w5nZgT4fGt5HdOeAeAyxM6" crossorigin=""></script>
+    <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
+            attribution: 'Map data &copy; OpenStreetMap contributors, Imagery © Stamen Design',
+            maxZoom: 18,
+        }).addTo(mymap);
+    </script>
+
+    {% include footer.html %}
+</body>
+
+</html>
