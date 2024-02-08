@@ -18,9 +18,8 @@
     <!-- Leaflet Map Initialization -->
     <script>
         var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
-            attribution: 'Map data &copy; OpenStreetMap contributors, Imagery © Stamen Design',
-            maxZoom: 18,
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; OpenStreetMap contributors'
         }).addTo(mymap);
     </script>
 
