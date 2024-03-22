@@ -20,6 +20,7 @@ Besides eau de vie made from apricots, pears, wild raspberries, or even carrots,
 Every tasting is uniquely tailored to the spirit preferences and familiarity of each guest. Collectively, we share a tasting of a dozen or so unique spirits, a few mini cocktails, some snacks, and conversation.
 
 [Take the survey to request a tasting.](/barstorey/survey/)
+
 [Contact me if you are interested in becoming a host.](/barstorey/contact/)
 
 Note: this is a non-commercial art project, hosted in a different home each time. No tickets will be sold. Tastings are by invitation only. Barter, donations to the Slow Food movement, or sliding scale contributions to cover costs are accepted. Each experience will be documented as an open template, with recepies and guides to create your own tasting experience in your own home.
